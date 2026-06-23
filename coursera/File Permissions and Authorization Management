@@ -1,0 +1,67 @@
+Coursera: Linux Tools of the Trade – File Permissions and Authorization Management
+
+Overview
+
+This lab focuses on Linux file permissions and access control mechanisms. It covers how to inspect file permissions, identify misconfigurations, modify access rights, and remove unauthorized access to directories. These concepts are fundamental for system security and access management in Unix-like systems.
+
+Objective
+
+Develop practical skills in Linux permission management, including:
+
+* Inspecting file and directory permissions
+* Identifying incorrect or insecure permission configurations
+* Modifying file permissions to enforce proper access control
+* Restricting or removing unauthorized access to directories
+
+Key Commands
+
+* ls -l — Displays detailed file permissions and ownership information
+* chmod — Modifies file and directory permissions
+* chown — Changes file ownership (user and group)
+* ls — Used to verify directory contents and changes
+
+Tasks Completed
+
+1. Inspect File Permissions
+
+File permissions within a directory were analyzed using:
+
+ls -l
+
+This command provides a detailed view of:
+
+* File permissions (read, write, execute)
+* File ownership (user and group)
+* File metadata
+
+2. Identify Incorrect Permissions
+
+Files within the directory were reviewed to detect insecure or misconfigured permissions that could allow unauthorized access or modification.
+
+3. Modify File Permissions
+
+Permissions were adjusted using chmod to enforce correct access control:
+
+chmod <permissions> <file_name>
+
+This ensures that only authorized users can read, write, or execute specific files.
+
+4. Remove Unauthorized Access
+
+Access to a directory was restricted by removing or correcting overly permissive settings:
+
+chmod <permissions> <directory_name>
+
+This step reinforces proper security boundaries within the filesystem.
+
+Key Takeaways
+
+* Learned how to inspect Linux file permissions using ls -l.
+* Understood how improper permissions can create security vulnerabilities.
+* Practiced modifying access rights using chmod.
+* Reinforced the importance of least privilege in Linux systems.
+* Gained foundational knowledge of access control in Unix-like environments.
+
+Conclusion
+
+This lab introduced core Linux authorization concepts, focusing on how file permissions regulate access to system resources. Proper permission management is essential for maintaining system security, preventing unauthorized access, and enforcing the principle of least privilege in real-world environments.
