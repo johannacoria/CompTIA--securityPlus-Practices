@@ -1,0 +1,78 @@
+Coursera: Linux Tools of the Trade – File Navigation and Inspection
+
+Overview
+
+This lab focuses on fundamental Linux file system operations, including navigating directories, inspecting file contents, and extracting information from text files using command-line tools. These skills are essential for system administration, cybersecurity analysis, and general Linux proficiency.
+
+Objective
+
+Develop core Linux command-line skills to:
+
+* Identify the current working directory
+* Navigate through directory structures
+* List and inspect files and subdirectories
+* View file contents
+* Display partial file output (first 10 lines)
+
+Key Commands
+
+* pwd — Prints the current working directory.
+* ls — Lists files and directories in the current location.
+* cd — Changes the current directory.
+* cat — Displays the full contents of a file.
+* head — Displays the first 10 lines of a file by default.
+
+Tasks Completed
+
+1. Identify Current Working Directory
+
+The current location in the filesystem was determined using:
+
+pwd
+
+This command is useful for understanding the current context when navigating complex directory structures.
+
+2. List Directory Contents
+
+Directory contents were displayed using:
+
+ls
+
+This allows identification of available files and subdirectories within the current location.
+
+3. Navigate and Explore Directories
+
+The cd command was used to move between directories and explore nested structures:
+
+cd <directory_name>
+ls
+
+This process helps map the file system hierarchy and locate relevant files.
+
+4. View Full File Contents
+
+The full content of a file was displayed using:
+
+cat <file_name>
+
+This is a fundamental operation for reading text-based files in Linux environments.
+
+5. View First 10 Lines of a File
+
+To quickly inspect the beginning of a file, the head command was used:
+
+head <file_name>
+
+By default, head outputs the first 10 lines, making it useful for quick previews of large files.
+
+Key Takeaways
+
+* Understood how to determine the current working directory using pwd.
+* Learned to navigate the Linux filesystem using cd.
+* Practiced listing and exploring directory contents with ls.
+* Gained experience reading full files using cat.
+* Learned efficient file preview techniques using head.
+
+Conclusion
+
+This lab provided foundational experience in Linux file system navigation and file inspection. These skills form the basis of nearly all Linux-based workflows, including system administration, log analysis, and cybersecurity investigations.
