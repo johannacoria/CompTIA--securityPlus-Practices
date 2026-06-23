@@ -1,0 +1,74 @@
+Coursera: Linux Tools of the Trade – Shell Input and Output Fundamentals
+
+Overview
+
+This lab focuses on understanding how input and output are handled in the Linux shell environment. It introduces basic shell interaction techniques, simple arithmetic operations using command-line utilities, and essential terminal control commands.
+
+Objective
+
+Develop foundational skills in interacting with the Linux shell, including:
+
+* Displaying output using shell commands
+* Performing basic arithmetic operations via the command line
+* Managing terminal display
+* Exploring core shell utilities
+
+Key Concepts and Commands
+
+Shell Output
+
+* echo — Prints text or variables to standard output (stdout).
+    It is commonly used for displaying messages, debugging scripts, and interacting with shell environments.
+
+Arithmetic Operations
+
+* expr — Evaluates simple arithmetic expressions directly in the shell.
+    Supports integer operations such as addition, subtraction, multiplication, and division.
+
+Terminal Control
+
+* clear — Clears the terminal screen to improve readability and reset the workspace.
+
+Tasks Completed
+
+1. Displaying Output in the Shell
+
+The echo command was used to print messages and values to standard output:
+
+echo "Hello, Linux Shell"
+
+This demonstrates how the shell handles output streams.
+
+2. Performing Basic Calculations
+
+The expr command was used to execute arithmetic expressions directly in the terminal:
+
+expr 10 + 5
+expr 20 - 4
+expr 6 \* 3
+
+Note: The multiplication operator () must be escaped using \ to prevent shell expansion.
+
+3. Clearing the Terminal
+
+The terminal display was reset using:
+
+clear
+
+This command clears all previous output from the screen, improving readability during extended sessions.
+
+4. Exploring Additional Shell Commands
+
+Basic exploration of shell utilities was performed to become more familiar with Linux command-line behavior and available system tools.
+
+Key Takeaways
+
+* Understood how the shell handles standard output using echo.
+* Learned how to perform arithmetic operations using expr.
+* Gained awareness of shell syntax rules, including escaping special characters.
+* Practiced terminal management using clear.
+* Improved familiarity with core Linux command-line behavior.
+
+Conclusion
+
+This lab provided foundational understanding of how input and output operate within the Linux shell. These concepts are essential for scripting, automation, and system administration tasks, and form the basis for more advanced command-line operations and security tooling workflows.
