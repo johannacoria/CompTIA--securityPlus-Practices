@@ -1,0 +1,54 @@
+Coursera: Linux Tools of the Trade – Text Filtering with grep
+
+Overview
+
+This lab introduces text filtering techniques in Linux using the grep command. These skills are essential for searching within files, analyzing logs, and extracting relevant information from large datasets in system administration and cybersecurity workflows.
+
+Objective
+
+Learn how to use grep to:
+
+* Search for error messages within log files
+* Find files containing specific text patterns
+* Extract user-related information from system files
+
+Key Command
+
+* grep — A command-line utility used to search for specific patterns within files or input streams.
+
+Tasks Completed
+
+1. Searching for Error Messages in Files
+
+The grep command was used to locate error messages within a file by searching for a specific keyword pattern:
+
+grep "error" <file_name>
+
+This allows quick identification of relevant log entries related to system or application issues.
+
+2. Searching for a Specific String in Files
+
+A targeted search was performed to find files or content containing a specific string:
+
+grep "<string>" <file_name>
+
+This technique is useful for locating configuration values, identifiers, or any known text pattern within files.
+
+3. Searching for User Information in Files
+
+The grep command was also used to extract user-related information from system or text files:
+
+grep "<username>" <file_name>
+
+This helps filter and isolate user-specific entries in large datasets or logs.
+
+Key Takeaways
+
+* Learned how to use grep for pattern-based text searching in Linux.
+* Understood how to locate error messages efficiently in log files.
+* Practiced extracting specific information from structured and unstructured text.
+* Gained foundational skills for log analysis and cybersecurity investigations.
+
+Conclusion
+
+This lab introduced the fundamental use of grep for text filtering in Linux. Mastering this command is essential for working with logs, debugging systems, and performing security analysis, where quickly locating relevant information is critical
