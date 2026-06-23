@@ -1,0 +1,76 @@
+Coursera: Linux Tools of the Trade – File and Directory Management
+
+Overview
+
+This lab focuses on basic file and directory management in Linux using command-line tools. It covers creating, moving, deleting, and editing files, which are essential operations for system administration and cybersecurity workflows.
+
+Objective
+
+Develop fundamental skills in Linux file system manipulation, including:
+
+* Creating and removing directories
+* Moving and deleting files
+* Creating and editing files using a terminal text editor
+* Managing file system structure efficiently from the command line
+
+Key Commands
+
+* mkdir — Creates a new directory
+* rmdir — Removes an empty directory
+* rm — Deletes files or directories
+* mv — Moves or renames files and directories
+* nano — Terminal-based text editor used to create and edit files
+
+Tasks Completed
+
+1. Create a New Directory
+
+A new directory was created using:
+
+mkdir <directory_name>
+
+This command is used to organize files into structured directories within the filesystem.
+
+2. Remove a Directory
+
+The previously created directory was removed using:
+
+rmdir <directory_name>
+
+This command only works on empty directories.
+
+3. Move a File
+
+A file was moved from one location to another using:
+
+mv <source_file> <destination_directory>
+
+This operation is commonly used to reorganize files within the filesystem.
+
+4. Remove a File
+
+A file was deleted using:
+
+rm <file_name>
+
+This command permanently removes files from the system.
+
+5. Create and Edit a File Using Nano
+
+A new file was created and edited using the nano text editor:
+
+nano <file_name>
+
+Inside the editor, text was added manually and saved before exiting.
+
+Key Takeaways
+
+* Learned how to create and remove directories using mkdir and rmdir.
+* Practiced moving files using mv.
+* Understood file deletion using rm.
+* Gained experience creating and editing files using the nano text editor.
+* Developed basic filesystem management skills essential for Linux environments.
+
+Conclusion
+
+This lab provided hands-on experience with essential Linux file and directory management commands. These operations form the foundation of system administration tasks and are critical for managing, organizing, and modifying files in both local and remote Linux environments.
