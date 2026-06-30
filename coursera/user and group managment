@@ -1,0 +1,68 @@
+Coursera: Linux Tools of the Trade – User and Group Management
+
+Overview
+
+This lab introduces user and group management in Linux using command-line utilities. It covers creating user accounts, modifying user group memberships, changing file ownership, and removing user accounts. These tasks are fundamental to Linux system administration and access management.
+
+Objective
+
+Develop practical skills in Linux user administration by learning how to:
+
+* Create new user accounts
+* Change file ownership
+* Manage group memberships
+* Remove user accounts from the system
+
+Key Commands
+
+* useradd — Creates a new user account.
+* chown — Changes the ownership of files and directories.
+* usermod — Modifies an existing user account.
+* usermod -aG — Adds an existing user to one or more supplementary groups without removing existing group memberships.
+* userdel — Removes a user account from the system.
+
+Tasks Completed
+
+1. Create a New User
+
+A new employee account was created using:
+
+sudo useradd <username>
+
+This command creates a new local user account on the system.
+
+2. Change File Ownership
+
+Ownership of a file was updated to assign it to the appropriate user:
+
+sudo chown <username> <file_name>
+
+This ensures that the designated user becomes the owner of the specified file.
+
+3. Add the User to a Group
+
+The new user was added to an existing group using:
+
+sudo usermod -aG <group_name> <username>
+
+The -aG options append the user to the specified supplementary group while preserving existing group memberships.
+
+4. Remove the User
+
+The user account was removed from the system using:
+
+sudo userdel <username>
+
+This command deletes the user account. Depending on the options used, the user’s home directory may be preserved or removed.
+
+Key Takeaways
+
+* Learned how to create and remove Linux user accounts.
+* Practiced changing file ownership with chown.
+* Managed user group memberships using usermod -aG.
+* Understood the role of users and groups in Linux access control.
+* Gained hands-on experience with basic user administration tasks.
+
+Conclusion
+
+This lab introduced fundamental Linux user and group management operations. Understanding how to create users, assign file ownership, manage group memberships, and remove accounts is essential for system administration and implementing secure access control in multi-user environments.
