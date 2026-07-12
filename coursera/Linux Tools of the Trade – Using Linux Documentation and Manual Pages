@@ -1,0 +1,72 @@
+Coursera: Linux Tools of the Trade – Using Linux Documentation and Manual Pages
+
+Overview
+
+This lab focuses on using Linux’s built-in documentation tools to learn about system commands directly from the command line. It introduces manual pages and search utilities that help users understand command functionality, available options, and related utilities without relying on external resources.
+
+Objective
+
+Develop the ability to navigate Linux documentation by learning how to:
+
+* Access command documentation
+* Retrieve brief command descriptions
+* Search for commands related to specific tasks
+* Compare commands and identify their available options
+
+Key Commands
+
+* man — Displays the manual page for a command.
+* whatis — Displays a brief description of a command.
+* apropos — Searches manual page descriptions for commands related to a keyword.
+
+Tasks Completed
+
+1. Explore Command Documentation
+
+The man command was used to access the complete manual pages for Linux commands:
+
+man <command>
+
+Manual pages provide detailed information, including command syntax, options, descriptions, and usage examples.
+
+2. Find a Brief Command Description
+
+The whatis command was used to display a concise description of a command:
+
+whatis <command>
+
+This is useful for quickly identifying the primary purpose of a command.
+
+3. Search for Commands by Keyword
+
+The apropos command was used to search the manual page database for commands related to a specific topic:
+
+apropos <keyword>
+
+This allows users to discover commands when they know the task they want to accomplish but not the command name.
+
+4. Identify Command Options
+
+Manual pages were used to review the available options and arguments supported by Linux commands.
+
+5. Compare Linux Commands
+
+Documentation tools were used to distinguish the purpose and functionality of similar commands by reviewing their manual pages and descriptions.
+
+6. Identify the Command to Create a New Group
+
+Using the available documentation tools, the appropriate command for creating a new group was identified:
+
+groupadd
+
+Key Takeaways
+
+* Learned how to use Linux manual pages as the primary source of command documentation.
+* Practiced obtaining concise command descriptions with whatis.
+* Used apropos to discover commands based on keywords.
+* Improved the ability to identify command options and compare similar utilities.
+* Developed a more efficient workflow for learning and troubleshooting Linux commands directly from the terminal.
+
+Conclusion
+
+This lab introduced essential Linux documentation tools that enable users to independently explore system commands and their functionality. Becoming proficient with man, whatis, and apropos strengthens command-line proficiency and supports effective problem-solving in Linux system administration and cybersecurity environments.
